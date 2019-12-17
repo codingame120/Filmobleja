@@ -1,19 +1,19 @@
 
-function myFunction() {
-  // Declare variables
-  var input, filter, ul, li, a, i;
-  input = document.getElementById("mySearch");
-  filter = input.value.toUpperCase();
-  ul = document.getElementById("myMenu");
-  li = ul.getElementsByTagName("li");
+$(document).ready(function() {
+   $('#videos a').each(function() {
+      var data = $(this).attr('data');
+      $(this).append('<img src="http://img.youtube.com/vi/'+data+'/maxresdefault.jpg" />');
+   });
 
-  // Loop through all list items, and hide those who don't match the search query
-  for (i = 0; i < li.length; i++) {
-    a = li[i].getElementsByTagName("a")[0];
-    if (a.innerHTML.toUpperCase().indexOf(filter) > -1) {
-      li[i].style.display = "";
-    } else {
-      li[i].style.display = "none";
-    }
-  }
-}
+   $('#videos a').click(function() {
+      var data = $(this).attr('data');
+      $('#loader').append('<iframe src="https://www.youtube.com/embed/'+data+'" frameborder="0" allowfullscreen></iframe>');
+      $('#overlay').fadeIn(250);
+   });
+
+   $('#close').click(function() {
+      $('#overlay').fadeOut(250,function() {
+         $('#loader').html('');
+      });
+   });
+});

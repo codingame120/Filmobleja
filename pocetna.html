@@ -3,53 +3,128 @@
 <head>
 	
 	<title>Pocetna</title>
-	<link rel="stylesheet" type="text/css" href="pocetna.css">
-	<script src="http://ajax.googleapis.com/ajax/libs/jquery/3.3.1/jquery.min.js"></script>
-	<script src="pocetna.js"></script>
-  <script type="text/javascript" src="https://identity.netlify.com/v1/netlify-identity-widget.js"></script>
+	<meta name="viewport" content="width=device-width, initial-scale=1.0">
 
+	<link rel="stylesheet" type="text/css" href="pocetna.css">
+	
+	<script src="pocetna.js"></script>
+    
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.4.1/jquery.min.js"></script>
+	<link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+    
 </head>
 <body>
-	<nav>
-    <ul class="menu">
-        <li class="logo"><a href="index.html">Filmožderi</a></li>
-        <li class="item"><a href="#">Home</a></li>
-        <li class="item"><a href="#">About</a></li>
-        <li class="item"><a href="#">Services</a></li>
-        <li class="item"><a href="#">Features</a></li>
-        <li class="item"><a href="#">Blog</a></li>
-        <li class="item"><a href="#">Contact</a>
-        </li>
-        <li class="item button"><a href="#">Log In</a></li>
-        <li class="item button secondary"><a href="#">Sign Up</a></li>
-         
-
-        <li class="toggle"><a href="#"><i class="fas fa-bars"></i></a></li>
-        <input type="text" id="mySearch" onkeyup="myFunction()" placeholder="Search.." title="Type in a category">
-</nav>
-
-
-
-
-<script type="text/javascript">
-	$(function() {
-    $(".toggle").on("click", function() {
-        if ($(".item").hasClass("active")) {
-            $(".item").removeClass("active");
-            $(this).find("a").html("<i class='fas fa-bars'></i>");
-        } else {
-            $(".item").addClass("active");
-            $(this).find("a").html("<i class='fas fa-times'></i>");
-        }
-    });
-});
-
-</script>
+	<div class="topnav" id="myTopnav">
+  <a href="index.html" class="active">Filmos</a>
+  <a href="#news">Najnovije</a>
+  <a href="#contact">Najgledanije</a>
+  <div class="dropdown">
+    <button class="dropbtn">Kategorije
+      <i class="fa fa-caret-down"></i>
+    </button>
+    <div class="dropdown-content">
+      <a href="#">Akcija</a>
+      <a href="#">Komedija</a>
+      <a href="#">Sci-Fi</a>
+    </div>
+  </div>
+  <a href="#about">Kontakt</a>
+  <a href="javascript:void(0);" class="icon" onclick="myFunction()">&#9776;</a>
+</div>
 
 
 
 
+<div id="videos">
+   <a data="uT6YOI6JcRs"></a>
+   <a data="ktAT6JCWCr0"></a>
+   <a data="d0K436vUM4w"></a>
+   <a data="PhbWIFDqQfk"></a>
+</div>
+
+<div id="overlay">
+   <div class="modal">
+      <div id="close">X</div>
+      <div id="loader"></div>
+   </div>
+</div>
 
 
-</body>
+
+<div class="center">
+  <div class="pagination">
+  <a href="#">&laquo;</a>
+  <a href="#">1</a>
+  <a href="#" class="active">2</a>
+  <a href="#">3</a>
+  <a href="#">4</a>
+  <a href="#">5</a>
+  <a href="#">6</a>
+  <a href="#">&raquo;</a>
+  </div>
+</div>
+
+
+
+	<div class="footer">
+			<div id="button"></div>
+		  <div id="container">
+		  <div id="cont">
+		  <div class="footer_center">
+				<div class="basr-social-share social">
+						<ul class="">
+						  <li>
+							<a class="facebook" href="">
+							  <i class="fa fa-facebook"></i>
+								  <span>Facebook</span>
+							  </a>
+						  </li>
+									  
+						  <li>
+							<a class="twitter" href="">
+							  <i class="fa fa-twitter"></i>
+								  <span>Twitter</span>
+							</a>
+						  </li>
+									  
+						  <li>
+							  <a class="googleplus" href="">
+							  <i class="fa fa-google-plus"></i>
+							  <span>Google Plus</span>
+							  </a>
+						  </li>
+									  
+						  <li>
+							<a class="linkedin" href="">
+							  <i class="fa fa-linkedin"></i>
+							  <span>Linkedin</span>
+							  </a>
+							  </li>
+									  
+							  <li>
+							  <a class="tumblr" href="">
+							  <i class="fa fa-tumblr"></i>
+							  <span>Tumblr</span>
+							  </a>
+							  </li>
+									  
+						</ul>
+					  </div>
+		  </div>
+		  </div>
+		  </div>
+		  </div>
+
+	<script>
+	jQuery(document).ready(function() {
+		jQuery('.toggle-nav').click(function(e) {
+			jQuery(this).toggleClass('active');
+			jQuery('.menu ul').toggleClass('active');
+	
+			e.preventDefault();
+		});
+	});
+	</script>
+ 
+ </body>
 </html>
