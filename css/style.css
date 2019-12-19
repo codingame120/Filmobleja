@@ -96,11 +96,12 @@ align-items: center;
 
  body {
 
-background: radial-gradient(rgba(77, 5, 232, 1), white);
+background: radial-gradient(circle,rgba(77, 5, 232, 1), white);
 background-position: center center;
 background-attachment: fixed;
 background-size: cover;
 background-repeat: no-repeat;
+background-size: 100%;
 
 
  }
