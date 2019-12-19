@@ -94,7 +94,7 @@ align-items: center;
 
 }
 
- body, html {
+ body {
 
 background: radial-gradient(circle,rgba(77, 5, 232, 1), white);
 background-position: center center;
