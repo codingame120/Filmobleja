@@ -294,7 +294,7 @@ a.active  {
 }
 
 #overlay {
-   background: rgba(0,0,0,0.8);
+   background: rgba(0,0,0,0.6);
    position:fixed;
    top: 0;
    right: 0;
@@ -307,25 +307,31 @@ a.active  {
 }
 
 #overlay .modal {
-   background: #fff;
+   background: rgba(51,51,51,0.8);
    border-radius: 5px;
    width: 90%;
    margin: 100px auto;
    max-width: 800px;
-   min-height: 100px;
+   min-height: 400px;
    position: relative;
    padding: 30px 20px 15px;
+   top: 8%;
 }
 
 #overlay .modal #close {
    position: absolute;
-   top: 5px;
-   right: 5px;
+   top: 10px;
+   right: 10px;
+   bottom: 10px;
    cursor: pointer;
+   color: white;
+   
 }
 
 #overlay iframe {
    width: 100%;
+   max-width: 800px;
+   min-height: 400px;
 }
 
 
