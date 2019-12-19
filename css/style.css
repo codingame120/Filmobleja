@@ -23,11 +23,14 @@ body {
 	
 }
 
-.log {
+.log img {
 
- display: flex;
-justify-content: center;
-align-items: center;
+display: flex;
+justify-content: flex-start;
+margin-top: 200px;
+width: 20%;
+height: auto;
+
 
 }
 
@@ -35,7 +38,7 @@ align-items: center;
 
 .log img {
 
- max-width: 80%;
+ max-width: 70%;
  margin-top: 20px;
  
 
@@ -47,7 +50,7 @@ align-items: center;
 .btn {
       
   position: absolute;
-  top: 60%;
+  top: 50%;
   text-align: center;
   width: 100%;
 
@@ -120,4 +123,78 @@ button {
    letter-spacing: 0.1em;
 
 
+}
+
+
+.dmca {
+
+  display:flex;
+  justify-content: center;
+  align-content: center;
+  color: white;
+  font-size: 20px;
+  max-width: 50%;
+  margin: 10px;
+  margin-left: 25%;
+
+ 
+
+
+}
+
+
+
+/* Style the button that is used to open and close the collapsible content */
+.collapsible {
+  background-color: rgba(128,0,128,0.4);
+  color: white;
+  cursor: pointer;
+  padding: 18px;
+  width: 50%;
+  border: none;
+  text-align: center;
+  outline: none;
+  font-size: 15px;
+  margin-left: 25%;
+  margin-top: 10%;
+  
+
+}
+
+/* Add a background color to the button if it is clicked on (add the .active class with JS), and when you move the mouse over it (hover) */
+.active, .collapsible:hover {
+  background-color: purple;
+}
+
+/* Style the collapsible content. Note: hidden by default */
+
+.content {
+  padding: 0 18px;
+  background-color: rgba(128,0,128,0.1);
+  max-height: 0;
+  overflow: hidden;
+  transition: max-height 0.2s ease-out;
+  color: white;
+  letter-spacing: 0.1em;
+  font-size: 17px;
+  font-family: serif;
+  font-style: italic;
+  margin-bottom: 20px;
+  margin-right: 20px;
+  margin-left: 20px;
+  margin-top: 10px;
+  
+
+}
+
+.collapsible:after {
+  content: '\02795'; /* Unicode character for "plus" sign (+) */
+  font-size: 13px;
+  color: white;
+  float: right;
+  margin-left: 5px;
+}
+
+.active:after {
+  content: "\2796"; /* Unicode character for "minus" sign (-) */
 }
