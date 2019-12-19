@@ -44,15 +44,10 @@ align-items: center;
 }
 
 
-
-
-
-
-
 .btn {
       
   position: absolute;
-  top: 50%;
+  top: 60%;
   text-align: center;
   width: 100%;
 
@@ -98,6 +93,18 @@ align-items: center;
 
 
 }
+
+ body, html {
+
+background: radial-gradient(circle,rgba(77, 5, 232, 1), white);
+background-position: center center;
+  background-attachment: fixed;
+  background-size: cover;
+
+  background-repeat: no-repeat;
+
+
+ }
 
 }
 
