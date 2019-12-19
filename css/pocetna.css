@@ -281,6 +281,19 @@ section{
     transition: all 1s ease;
   z-index:999;
 }
+
+.copy {
+display: flex;
+justify-content: center;
+align-items: center;
+overflow: hidden;
+margin-top: 50px;
+color: white;letter-spacing: 0.1em;
+font-family: serif;
+
+
+}
+
 .footer:hover {
   -webkit-transition: all 1s ease;
     -moz-transition: all 1s ease;
@@ -355,6 +368,7 @@ height:100%;
   align-items: center;
   position:relative;
  padding-top: 50px;
+ margin-top: 50px;
 }
 
 .social ul {
