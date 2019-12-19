@@ -96,7 +96,7 @@ align-items: center;
 
  body {
 
-background: radial-gradient(circle,rgba(77, 5, 232, 1), white);
+background: radial-gradient(rgba(77, 5, 232, 1), white);
 background-position: center center;
 background-attachment: fixed;
 background-size: cover;
