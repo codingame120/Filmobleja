@@ -265,7 +265,8 @@ a.active  {
  margin: 0 auto;
  max-width: 70%;
  margin-top: 150px;
- margin-bottom: 50px;  
+ margin-bottom: 50px;
+   
  
 }
 
@@ -281,6 +282,7 @@ a.active  {
    cursor: pointer;
    text-decoration: none;
    outline: 0;
+   
    
 }
 
@@ -304,6 +306,7 @@ a.active  {
    height: 100%;
    z-index: 99999;
    display: none;
+
 }
 
 #overlay .modal {
@@ -314,14 +317,16 @@ a.active  {
    max-width: 800px;
    min-height: 400px;
    position: relative;
-   padding: 30px 20px 15px;
+   padding: 20px 20px 15px;
    top: 8%;
+
+
 }
 
 #overlay .modal #close {
    position: absolute;
-   top: 10px;
-   right: 10px;
+   top: 5px;
+   right: 5px;
    bottom: 10px;
    cursor: pointer;
    color: white;
