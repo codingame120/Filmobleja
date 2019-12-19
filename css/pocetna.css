@@ -5,7 +5,10 @@
     margin: 0;
 }
 body {
+    
+
     font-family: sans-serif;
+    background: radial-gradient(circle,rgba(77, 5, 232, 1), white);
    
 
 
@@ -266,6 +269,8 @@ a.active  {
  
 }
 
+
+
 #videos a {
    display: block;
    width: 25%;
@@ -276,6 +281,7 @@ a.active  {
    cursor: pointer;
    text-decoration: none;
    outline: 0;
+   
 }
 
 #videos a:hover {
@@ -362,6 +368,13 @@ a.active  {
 section{
   text-align:center;
 }
+
+
+
+
+
+
+
 .footer #button{
   width:35px;
   height:35px;
