@@ -14,14 +14,13 @@ body {
   background-size: cover;
   background-color: black;
   background-repeat: no-repeat;
-
-  
-
+ 
 
 
+  }
 
-	
-}
+
+
 
 .log img {
 
@@ -71,6 +70,8 @@ height: auto;
 	font-family: serif;
 	letter-spacing: 0.1em;
 	margin-top: 30px;
+
+
 
 }
 
