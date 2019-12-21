@@ -660,6 +660,20 @@ border-radius: 5px;
 
 }
 
+@media screen and (max-width: 600px) {
+
+ .radio  {
+
+  max-width: 83%;
+ }
+
+ audio {
+
+  max-width: 80%;
+ }
+
+}
+
 .rad-txt {
 
   position: absolute;
