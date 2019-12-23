@@ -304,6 +304,19 @@ flex-wrap: wrap;
 }
 
 
+@media screen and (max-width: 600px) {
+
+
+	.player {
+
+		width: 85%;
+		height: auto;
+	}
+
+	
+}
+
+
 
 
 .opis {
@@ -385,6 +398,25 @@ white-space: pre;
 color: gray;
 letter-spacing: 0.1em;
 
+ }
+
+
+ @media screen and (max-width: 600px) {
+
+ 	.pozicija {
+
+ 		font-size: 15px;
+ 	}
+
+ 	.poz-naslova {
+
+ 		font-size: 12px;
+ 	}
+
+ 	.font-godina {
+
+ 		font-size: 15px;
+ 	}
  }
 
 
