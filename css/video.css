@@ -396,6 +396,7 @@ letter-spacing: 0.1em;
 	flex-wrap: wrap;
 	align-content: center;
 	justify-content: center;
+	position: absolute;
     margin:0;
 	bottom: 0px;
 
