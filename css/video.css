@@ -403,6 +403,7 @@ letter-spacing: 0.1em;
 .coment {
 
 display: flex;
+flex-wrap: wrap;
 justify-content: center;
 align-content: center;
 align-items: center;
