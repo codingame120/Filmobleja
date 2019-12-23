@@ -387,34 +387,7 @@ letter-spacing: 0.1em;
 
  }
 
-.na-dnu {
 
-
-	display: flex;
-	flex-wrap: wrap;
-	align-content: center;
-	justify-content: center;
-	position: fixed;
-    bottom: 0;
-    margin: 0;
-    padding: 0;
-
-}
-
-.coment {
-
-display: flex;
-flex-wrap: wrap;
-justify-content: center;
-align-content: center;
-align-items: center;
-
-}
-.just-comments {
-
-
-	
-}
 
 
 
