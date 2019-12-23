@@ -392,6 +392,12 @@ letter-spacing: 0.1em;
 .coment {
 
 
+	display: flex;
+	align-content: center;
+	justify-content: center;
+	bottom: 0px;
+
+
 }
 
 
