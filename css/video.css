@@ -394,7 +394,7 @@ letter-spacing: 0.1em;
 	flex-wrap: wrap;
 	align-content: center;
 	justify-content: center;
-	position: absolute;
+	position: fixed;
     bottom: 0;
     margin: 0;
     padding: 0;
@@ -402,7 +402,7 @@ letter-spacing: 0.1em;
 }
 
 .coment {
-position: absolute;
+
 display: flex;
 flex-wrap: wrap;
 justify-content: center;
@@ -413,7 +413,7 @@ align-items: center;
 .just-comments {
 
 
-	position: absolute;
+	
 }
 
 
