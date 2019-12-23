@@ -393,6 +393,7 @@ letter-spacing: 0.1em;
 
 
 	display: flex;
+	flex-wrap: wrap;
 	align-content: center;
 	justify-content: center;
 	bottom: 20px;
@@ -400,7 +401,10 @@ letter-spacing: 0.1em;
 
 }
 .just-comments {
-
+display: flex;
+justify-content: center;
+align-items: center;
+flex-wrap: wrap;
 
 	bottom: 0;
 }
