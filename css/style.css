@@ -16,10 +16,20 @@ body {
     background-attachment: fixed;
 
 
-   
+   }
 
+
+@media screen and (max-width: 600px) {
+
+  body {
+
+    background-image: none;
+    background-color: rgba(0,0,0,0.9);
+  }
 
 }
+
+
 
 /* Add a black background color to the top navigation */
 .topnav {
@@ -171,7 +181,7 @@ body {
 }
 a.active  {
 
-  color: gray;
+  color: #9DCAE0;
   margin-top: 15px;
   margin-bottom: 15px;
   font-size: 25px;
@@ -192,8 +202,8 @@ a.active  {
 
 a.active:hover {
 
-    color: white;
-    font-size: 25px;
+    color: gray;
+    font-size: 15px;
 
 
 } 

@@ -24,17 +24,6 @@ body {
 }
 
 
- /*.img-fluid{
-   overflow: hidden;
-   display: inline-block;
-   width: 100px;
-   height: 100px;
-   float: left;
-   padding: 3px;
-
-
-}*/
-
 
 .topnav a {
 
@@ -163,7 +152,7 @@ a.active:hover {
 }
 a.active  {
 
-  color: gray;
+  color: #9DCAE0;
   margin-top: 15px;
   margin-bottom: 15px;
   font-size: 25px;
@@ -184,8 +173,8 @@ a.active  {
 
 a.active:hover {
 
-    color: white;
-    font-size: 25px;
+    color: gray;
+    font-size: 15px;
 
 
 } 
@@ -200,6 +189,7 @@ a.active:hover {
 a.active  {
 
   font-size: 15px;
+  color: #9DCAE0;
   
 
 
@@ -311,10 +301,30 @@ flex-wrap: wrap;
 
 		width: 85%;
 		height: auto;
+		margin-bottom: 40px;
+
 	}
 
+	.opis .pozicija {
+
+		display: none;
+	}
+
+	.naslov .poz-naslova {
+
+		background-color: transparent;
+
+
 	
-}
+     }
+
+     body {
+
+     	background-color: rgba(0,0,0,0.9);
+     	background-image: none;
+     }
+
+  }
 
 
 
