@@ -402,7 +402,7 @@ letter-spacing: 0.1em;
 }
 
 .coment {
-
+position: absolute;
 display: flex;
 flex-wrap: wrap;
 justify-content: center;
