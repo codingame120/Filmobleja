@@ -387,9 +387,7 @@ letter-spacing: 0.1em;
 
  }
 
-
-
-.coment {
+.na-dnu {
 
 
 	display: flex;
@@ -400,13 +398,18 @@ letter-spacing: 0.1em;
     margin:0;
 	bottom: 0px;
 
+}
+
+.coment {
+
+display: flex;
+justify-content: center;
+align-content: center;
+align-items: center;
 
 }
 .just-comments {
-display: flex;
-justify-content: center;
-align-items: center;
-flex-wrap: wrap;
+
 
 	
 }
