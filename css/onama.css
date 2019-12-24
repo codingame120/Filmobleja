@@ -4,7 +4,7 @@
     padding: 0;
     margin: 0;
 }
-html, body {
+body {
     
 
   
@@ -16,18 +16,14 @@ html, body {
     background-position: center;
     background-size: cover;
     background-attachment: fixed;
+    margin:0;
+    padding:0;
+    height:100%;
     
   }
 
 
 
-  html, body {
-margin:0;
-padding:0;
-height:100%;
-    background-attachment: fixed;
-
-}
 
 
 
