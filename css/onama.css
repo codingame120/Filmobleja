@@ -16,7 +16,7 @@ html, body {
     background-position: center;
     background-size: cover;
     background-attachment: fixed;
-    
+
     
     
     
@@ -28,6 +28,7 @@ html, body {
 margin:0;
 padding:0;
 height:100%;
+width: 100%;
 }
 
 
