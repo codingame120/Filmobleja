@@ -302,7 +302,7 @@ flex-wrap: wrap;
 
 	.player {
 
-		width: 85%;
+		width: 95%;
 		height: auto;
 		margin-bottom: 40px;
 
@@ -497,17 +497,19 @@ section{
   z-index:999;
 }
 
+
+
 .copy {
 display: flex;
 justify-content: center;
 align-items: center;
 overflow: hidden;
 margin-top: 50px;
-color: white;letter-spacing: 0.1em;
+color: white;
+letter-spacing: 0.1em;
 font-family: Times, serif;
-
-
 }
+
 
 .footer:hover {
   -webkit-transition: all 1s ease;
@@ -820,15 +822,6 @@ height:100%;
 }
 
 
-.copy {
-display: flex;
-justify-content: center;
-align-items: center;
-overflow: hidden;
-margin-top: 50px;
-color: white;letter-spacing: 0.1em;
-font-family: Times, serif;
-}
 
 
 
