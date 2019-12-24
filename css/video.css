@@ -863,5 +863,6 @@ font-family: Times, serif;
   display: flex;
   justify-content: center;
   align-items: center;
-  background-color: black;
+  background-color: rgba(0,0,0,0.6);
+  max-width: 60%;
 }
