@@ -172,16 +172,13 @@ body {
 }
 
 @media screen and (max-width: 900px) {
-.img-fluid {
 
-  display: none;
-}
 a.active  {
 
-  color: #9DCAE0;
+  color: white;
   margin-top: 15px;
   margin-bottom: 15px;
-  font-size: 25px;
+  font-size: 15px;
   font-weight: bolder;
 
   
@@ -200,7 +197,7 @@ a.active  {
 a.active:hover {
 
     color: grey;
-    font-size: 25px;
+    font-size: 15px;
 
 
 } 
@@ -208,14 +205,12 @@ a.active:hover {
 }
 @media screen and (max-width: 400px){
 
-.img-fluid {
 
-  display: none;
-}
 a.active  {
   
-  color: #9DCAE0;
+  color: white;
   font-size: 15px;
+  
   
 
 
