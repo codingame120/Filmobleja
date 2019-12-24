@@ -20,6 +20,19 @@ body {
 
 }
 
+
+@media screen and (max-width: 600px ) {
+  
+  body {
+  
+  background-image: none;
+
+    background: linear-gradient(to right,  yellow  0%,yellow 50%,red 50%,red 100%);
+
+
+  }
+}
+
 /* Add a black background color to the top navigation */
 .topnav {
   background: linear-gradient(to bottom,  grey  0%,#e3f2fd 50%,#e3f2fd 50%,#42a5f5 100%);
