@@ -765,11 +765,3 @@ height:100%;
   background: #555;
 }
 
-
-.just-comments {
-
-  display: flex;
-  justify-content: center;
-  align-items: center;
-  background-color: black;
-}
