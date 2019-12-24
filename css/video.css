@@ -867,7 +867,8 @@ font-family: Times, serif;
   align-items: center;
   justify-content: center;
   flex-direction: row;
-  background-color: rgba(0,0,0,0.6);
-  max-width: 80%;
+  background-color: rgba(0,0,0,0.8);
+  max-width: 100%;
   text-align: center;
+  color: white;
 }
