@@ -862,8 +862,8 @@ font-family: Times, serif;
 .comentari {
 
   display: flex;
-  justify-content: center;
   align-items: center;
+  justify-content: center;
   flex-direction: column;
   background-color: rgba(0,0,0,0.6);
   max-width: 80%;
@@ -874,4 +874,5 @@ font-family: Times, serif;
 
   
   width: auto;
+  text-align: center;
 }
