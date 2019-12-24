@@ -864,7 +864,7 @@ font-family: Times, serif;
   display: flex;
   align-items: center;
   justify-content: center;
-  flex-direction: column;
+  flex-direction: row;
   background-color: rgba(0,0,0,0.6);
   max-width: 80%;
 
