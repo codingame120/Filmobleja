@@ -859,20 +859,15 @@ font-family: Times, serif;
 
 
 
-.comentari {
 
+.just-comments {
+
+  
   display: flex;
   align-items: center;
   justify-content: center;
   flex-direction: row;
   background-color: rgba(0,0,0,0.6);
   max-width: 80%;
-
-}
-
-.just-comments {
-
-  
-  width: auto;
   text-align: center;
 }
