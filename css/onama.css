@@ -16,10 +16,19 @@ body {
     background-position: center;
     background-size: cover;
     background-attachment: fixed;
-   
+    
+  }
 
+
+
+  html, body {
+margin:0;
+padding:0;
+height:100%;
 
 }
+
+
 
 /* Add a black background color to the top navigation */
 .topnav {
@@ -160,10 +169,7 @@ body {
 }
 
 @media screen and (max-width: 900px) {
-.img-fluid {
 
-  display: none;
-}
 a.active  {
 
   color: #9DCAE0;
@@ -196,10 +202,7 @@ a.active:hover {
 }
 @media screen and (max-width: 400px){
 
-.img-fluid {
 
-  display: none;
-}
 a.active  {
   
   color: #9DCAE0;
