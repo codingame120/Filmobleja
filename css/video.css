@@ -15,12 +15,15 @@ body {
 
 /* Add a black background color to the top navigation */
 .topnav {
-  background-color: rgba(0,0,0,0.9);
+  background: linear-gradient(to bottom,  #000000 0%,#484848 50%,#484848 50%,#000000 100%);
+  opacity: 0.9;
   overflow: hidden;
   position: fixed;
   top: 0;
   width: 100%;
   z-index: 999999;
+  box-shadow: 2px 2px 2px black;
+
 }
 
 
@@ -357,6 +360,7 @@ flex-wrap: wrap;
  margin-bottom: 40px;
  margin-top: 0;
  letter-spacing: 0.1em;
+ text-align: justify;
 
  
 
