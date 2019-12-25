@@ -745,7 +745,8 @@ margin-bottom: 40px;
 }
 
 
+
 #tikio {
 
-  margin-top: 1000px;
+  position: fixed;
 }
