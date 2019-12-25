@@ -689,6 +689,7 @@ height:100%;
   margin-top: 30%;
   border-radius: 10px;
   box-shadow: 1px 1px 1px 1px black;
+  transition: 1s box-shadow;
 
 }
 
@@ -711,6 +712,7 @@ height:100%;
 .collapsiblee:hover {
 
   opacity: 0.6;
+  box-shadow: 0 5px 35px 0px rgba(0,0,0,1);
 }
 
 .content {

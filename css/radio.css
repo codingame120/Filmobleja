@@ -791,7 +791,7 @@ margin-bottom: 40px;
 .light-off button {
 
   color: white;
-  
+
   border: 1px solid black;
   width: 100px;
   height: 50px;
@@ -800,16 +800,25 @@ margin-bottom: 40px;
   opacity: 0.7;
   background: linear-gradient(to bottom,  #000000 0%,#484848 50%,#484848 50%,#000000 100%);
   box-shadow: 1px 1px 1px 1px black;
-
-
+transition: 1s box-shadow;
+  letter-spacing: 0.1em;
 }
 
 .light-off button:hover {
 
    opacity: 0.9;
+   box-shadow: 0 5px 35px 0px rgba(0,0,0,1);
       
 }
 
+
+.light-off button:after {
+
+  content: '\1F4A1';
+}
+ 
+
+/* end hover */
 
 @media (prefers-color-scheme: dark) {
    
