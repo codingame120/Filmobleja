@@ -771,17 +771,3 @@ height:100%;
 
 
 
-
-.mail {
-display: flex;
-justify-content: flex-end;
-overflow: hidden;
-margin-top: ;
-color: white;
-letter-spacing: 0.1em;
-font-family: Times, serif;
-float: right;
-margin-left: 60px;
-
-
-}

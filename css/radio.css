@@ -9,16 +9,19 @@ body {
 
     
    /* background: radial-gradient(circle,rgba(77, 5, 232,1)white);*/
-   background-color: rgba(253,253,253);
+   /*background-color: rgba(253,253,253);*/
    background-image: url("https://i.postimg.cc/268zymLP/radiooo.png");
    background-repeat: no-repeat;
     background-position: center;
     background-size: cover;
     background-attachment: fixed;
    
+   
 
 
 }
+
+
 
 
 @media screen and (max-width: 600px ) {
@@ -744,4 +747,109 @@ margin-bottom: 40px;
   background: #555;
 }
 
+
+#overlay {
+  position: fixed;
+  display: none;
+  width: 100%;
+  height: 100%;
+  top:0;
+  left: 0;
+  right: 0;
+  bottom: 0;
+  background-color: rgba(0,0,0,0.8);
+  z-index: 2;
+  cursor: pointer;
+
+}
+
+#text{
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  font-size: 50px;
+  color: grey;
+  transform: translate(-50%,-50%);
+  -ms-transform: translate(-50%,-50%);
+}
+
+.light-off {
+  
+  margin-top: 100px;
+  display: flex;
+  justify-content: flex-end;
+  flex-wrap: wrap;
+  align-items: center;
+  align-content: center;
+  color: rgba(0,0,0,0.7);
+
+
+
+
+}
+
+.light-off button {
+
+  color: white;
+  
+  border: 1px solid black;
+  width: 100px;
+  height: 50px;
+  border-radius: 15px;
+  cursor: pointer;
+  opacity: 0.7;
+  background: linear-gradient(to bottom,  #000000 0%,#484848 50%,#484848 50%,#000000 100%);
+  box-shadow: 1px 1px 1px 1px black;
+
+
+}
+
+.light-off button:hover {
+
+   opacity: 0.9;
+      
+}
+
+
+@media (prefers-color-scheme: dark) {
+   
+   .topnav {
+      
+      background: linear-gradient(to bottom,  #000000 0%,#484848 50%,#484848 50%,#000000 100%);
+      box-shadow: 1px 1px 1px 1px black;
+   }
+
+   a.active  {
+
+  color: #9DCAE0;
+ 
+  
+  }
+
+  .topnav a {
+
+
+  }
+
+   .topnav a:hover {
+
+
+
+   }
+
+
+   .dropdown .dropbtn {
+
+     
+
+   }
+
+
+   .dropdown .dropbtn:hover {
+
+
+
+   }
+
+}
 
