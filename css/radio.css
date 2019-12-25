@@ -748,5 +748,5 @@ margin-bottom: 40px;
 
 #tikio {
 
-  position: fixed;
+  position: sticky;
 }
