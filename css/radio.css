@@ -748,6 +748,8 @@ margin-bottom: 40px;
 }
 
 
+/* priguseno svetlo tekst pocetak */
+
 #overlay {
   position: fixed;
   display: none;
@@ -773,12 +775,15 @@ margin-bottom: 40px;
   -ms-transform: translate(-50%,-50%);
 }
 
+
+/* priguseno svetlo tekst kraj */
+
 .light-off {
   
   margin-top: 100px;
   display: flex;
-  justify-content: flex-end;
   flex-wrap: wrap;
+  justify-content: flex-end;
   align-items: center;
   align-content: center;
   color: rgba(0,0,0,0.7);
@@ -802,6 +807,8 @@ margin-bottom: 40px;
   box-shadow: 1px 1px 1px 1px black;
 transition: 1s box-shadow;
   letter-spacing: 0.1em;
+  align-self: flex-end;
+  
 }
 
 .light-off button:hover {
@@ -819,6 +826,9 @@ transition: 1s box-shadow;
  
 
 /* end hover */
+
+
+/* dark mode beggining */
 
 @media (prefers-color-scheme: dark) {
    
@@ -862,3 +872,4 @@ transition: 1s box-shadow;
 
 }
 
+/* dark mode end */
