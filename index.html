@@ -98,9 +98,9 @@ height="0" width="0" style="display:none;visibility:hidden"></iframe></noscript>
 
 
   <div class="right">
-  <div>
- <input id="searchBox" type="search" placeholder="Unesite Naziv Filma ..." />
-</div>
+  
+<input id="searchBox" type="search" placeholder="Unesite Naziv Filma ..." /> 
+
   <a  href="./html/radio.html">Radio</a>
   <a  href="https://codingame120.github.io/filmobleja_blog/">Blog</a>
    <a  href="./html/onama.html">O Nama</a>
@@ -388,18 +388,68 @@ height="0" width="0" style="display:none;visibility:hidden"></iframe></noscript>
 
 	<script type="text/javascript" src="./js/pocetna.js"></script>
 
-<!-- Start of Site Search 360 Scripts -->
+
+<!-- Start of Site Search 360 script (put right before the closing </body> tag) -->
 <script type="text/javascript">
 window.ss360Config = {
+    tracking: {
+        providers: []
+    },
+    dataPoints: {
+        exclude: [],
+        single: []
+    },
     siteId: "www.filmobleja.tk",
-    searchBox: {
-        selector: "input[type='search']"
-    }
-}
+    style: {
+        themeColor: "black",
+        suggestions: {
+            text: {
+                color: "white"
+            },
+            background: {
+                color: "grey"
+            },
+            padding: "5px",
+            distanceFromTop: "0px",
+            border: {
+                color: "black",
+                radius: "0px"
+            }
+        },
+        searchBox: {
+            text: {
+                color: "white",
+                size: "14px"
+            },
+            background: {
+                color: "rgba(0,0,0,0.6)"
+            },
+            border: {
+                color: "rgba(0,0,0,0.8)",
+                radius: "10px"
+            },
+            padding: "8px",
+            icon: {
+                image: "magnifier",
+                color: "#666666"
+            }
+        },
+        loaderType: "circle"
+    },
+    specialMobileSuggest: {
+        enabled: true
+    },
+    results: {
+        moreResultsButton: null
+    },
+    showErrors: false
+};
+
 var e=document.createElement("script");
 e.type="module";
 e.src="https://cdn.sitesearch360.com/sitesearch360-v12.mjs";
 document.getElementsByTagName("body")[0].appendChild(e);
+
 e=document.createElement("script");
 e.type="text/javascript";
 e.async=!0;
@@ -407,7 +457,7 @@ e.setAttribute("nomodule", "nomodule");
 e.src="https://cdn.sitesearch360.com/sitesearch360-v12.min.js";
 document.getElementsByTagName("body")[0].appendChild(e);
 </script>
-<!-- End of Site Search 360 Scripts -->
+<!-- End of Site Search 360 script -->
 
  </body>
 </html>

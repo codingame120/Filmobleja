@@ -304,13 +304,13 @@ a.active:hover  {
   position: fixed;
   top: 0;
   margin-top: 40px;
-  left: 750px;
+  left: 730px;
   border-radius: 5px;
   background-color: rgba(0,0,0,0.6);
   opacity: 1;
   color: white;
   border-color: rgba(0,0,0,0.8);
-  
+
   
    
   
@@ -342,9 +342,10 @@ a.active:hover  {
     overflow: visible;
     top: 0;
     width: 100px;
-    left: 50px;
-    margin-top: 70px;
+    left: 110px;
+    margin-top: 77px;
     font-size: 10px;
+
 
 
   }
