@@ -43,8 +43,9 @@ body {
 
 #siq_search_results {
    
-   
+
    display: flex;
+   flex-wrap: wrap;
    justify-content: center;
    align-content: center;
    align-items: center;
