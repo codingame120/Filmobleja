@@ -24,8 +24,8 @@ body {
   body {
 
     background-image: none;
-   /* background-color: rgba(0,0,0,0.9);*/
-    background: linear-gradient(to bottom,  #000000 0%,#484848 50%,#484848 50%,#000000 100%);
+    background-color: rgba(0,0,0,0.9);
+   /* background: linear-gradient(to bottom,  #000000 0%,#484848 50%,#484848 50%,#000000 100%);*/
   }
 
 }
