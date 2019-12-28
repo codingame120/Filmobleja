@@ -32,6 +32,17 @@ width: 100%;
 margin-bottom: 0;
 }
 
+@media screen and (max-width: 400px ) {
+
+ body {
+  
+  background: rgba(0,0,0,0.7);
+
+ }
+
+
+}
+
 
 /* Add a black background color to the top navigation */
 .topnav {

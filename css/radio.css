@@ -28,9 +28,10 @@ body {
   
   body {
   
-  background-image: none;
+    background-image: none;
 
     background: linear-gradient(to right,  goldenrod 0%, goldenrod 50%,firebrick 50%,firebrick 100%);
+ 
 
 
   }
