@@ -36,7 +36,7 @@ body {
 .topnav {
   background: linear-gradient(to bottom,  #000000 0%,#484848 50%,#484848 50%,#000000 100%);
   opacity: 0.9;
-  overflow: hidden;
+  overflow: visible;
   position: fixed;
   top: 0;
   width: 100%;
@@ -206,7 +206,7 @@ a.active  {
 a.active:hover {
 
     color: gray;
-    font-size: 15px;
+    font-size: 25px;
 
 
 } 
@@ -219,6 +219,14 @@ a.active:hover {
   display: none;
 }
 a.active  {
+
+  font-size: 15px;
+  
+
+
+}
+
+a.active:hover  {
 
   font-size: 15px;
   
@@ -285,24 +293,66 @@ a.active  {
 }
 
 
+ 
 
-.search-box, #searchBox {
+
+
+
+ #searchBox {
 
   
   position: fixed;
   top: 0;
-  margin-top: 100px;
-  margin-left: 10px;
+  margin-top: 40px;
+  left: 750px;
   border-radius: 5px;
   background-color: rgba(0,0,0,0.6);
   opacity: 1;
   color: white;
   border-color: black;
+
    
   
    
 
 }
+
+@media screen and (max-width: 900px ) {
+
+
+  #searchBox {
+
+   position: fixed;
+    width: 140px;
+    left: 200px;
+  
+    margin-top: 40px;
+  }
+
+   
+
+}
+
+@media screen and (max-width: 400px ) {
+
+
+  #searchBox {
+    position: fixed;
+    overflow: visible;
+    top: 0;
+    width: 100px;
+    left: 50px;
+    margin-top: 70px;
+    font-size: 10px;
+
+
+  }
+
+   
+
+} 
+
+
 
 
 
