@@ -28,6 +28,21 @@ j=d.createElement(s),dl=l!='dataLayer'?'&l='+l:'';j.async=true;j.src=
 <link rel="manifest" href="../favicon/site.webmanifest">
 <meta name="msapplication-TileColor" content="#da532c">
 <meta name="theme-color" content="#ffffff">
+
+<script type="text/javascript">
+    (function () {
+        window.siqConfig = {
+            engineKey: "8020a3153073181667218f4c2ac09ff7",
+            forceLoadSettings: false        // change false to true if search box on your site is adding dynamically
+        };
+        window.siqConfig.baseUrl = "//pub.searchiq.co/";
+        var script = document.createElement("SCRIPT");
+        script.src = window.siqConfig.baseUrl + '/js/container/siq-container-2.js?cb=' + (Math.floor(Math.random()*999999)) + '&engineKey=' + siqConfig.engineKey;
+        script.id = "siq-container";
+        document.getElementsByTagName("HEAD")[0].appendChild(script);
+    })();
+</script>
+
 </head>
 <body>
 
