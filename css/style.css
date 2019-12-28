@@ -384,6 +384,17 @@ a.active:hover  {
 
 }
 
+@media screen and (max-width: 400px ) {
+
+   .cnt { 
+
+    margin-top: 200px;
+
+    }
+
+}
+
+
 .cnt1 {
 
   display: flex;
