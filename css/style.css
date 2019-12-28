@@ -44,6 +44,7 @@ body {
 #siq_search_results {
 
    margin-top: 100px;
+   max-width: 50%;
 
 
 }
