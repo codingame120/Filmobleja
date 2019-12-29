@@ -352,7 +352,7 @@ flex-wrap: wrap;
  color: gray;
   font-family: Times, sans-serif;
   font-size: 20px;
- width: 47.5%;
+/* width: 47.5%; */
  background-color: rgba(0,0,0,0.8);
  padding: 35px;
  padding-top: 45px;
@@ -361,7 +361,8 @@ flex-wrap: wrap;
  margin-top: 0;
  letter-spacing: 0.1em;
  text-align: justify;
-
+ max-width: 720px;
+ width: 720px;
  
 
 }
@@ -374,7 +375,8 @@ flex-wrap: wrap;
   text-align: center;
   justify-content: center;
   align-items: center;
-
+  
+  
 
 
 }
@@ -388,7 +390,7 @@ flex-wrap: wrap;
   font-family: Times, sans-serif;
   font-size: 30px;
   font-weight: bold;
- width: 47.5%;
+ /* width: 47.5%; */
  background-color: rgba(0,0,0,0.8);
  padding: 25px;
  padding-top: 25px;
@@ -399,7 +401,8 @@ flex-wrap: wrap;
  display: flex;
  justify-content: flex-start;
  letter-spacing: 0.1em;
-
+ max-width: 720px;
+ width: 720px;
  
 
 
