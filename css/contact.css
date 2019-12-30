@@ -22,6 +22,7 @@ h1 {
      font-size: 40px;
    }
 
+
 }
 
 h4 {
@@ -30,6 +31,7 @@ h4 {
     font-size: 20px;
     color: #9b9b9b;
     line-height: 1.5;
+    
 }
 
 
@@ -121,7 +123,7 @@ textarea {
 }
 
 
-@media screen and (max-width: 600px ) {
+@media screen and (max-width: 400px ) {
 
   .input-container {
    
@@ -130,7 +132,11 @@ textarea {
 
   }
 
-  
+  button.submit-btn {
+
+    font-size: 12px;
+    
+  }
 
 }
 
@@ -193,6 +199,7 @@ input[type=checkbox]:checked + label {
   box-shadow: 0 9px white;
   margin: 10px;
   opacity: 0.7;
+  letter-spacing: 0.1em;
 }
 
 .button:hover {
