@@ -110,21 +110,27 @@ textarea {
 
   .input-container {
 
-    max-width: 80%;
+    max-width: 70%;
 
+  }
+  .submit-btn {
+
+    font-size: 15px;
   }
 
 }
 
 
-@media screen and (max-width: 400px ) {
+@media screen and (max-width: 600px ) {
 
   .input-container {
    
     
-    max-width: 60%;
+     max-width: 50%;
 
   }
+
+  
 
 }
 
@@ -143,6 +149,7 @@ textarea {
     -webkit-transition: all 300ms ease;
     transition: all 300ms ease;
     margin-bottom: 40px;
+    
 }
 
 .submit-btn:hover {
@@ -151,9 +158,9 @@ textarea {
               0 1px 1px 0 rgba(0,0,0,0.09);
 }
 
-@media (max-width: 768px) {
+/* @media (max-width: 768px) {
     .submit-btn {
-        width:100%;
+        width:80%;
         float: none;
         text-align:center;
     }
@@ -167,7 +174,7 @@ input[type=checkbox] + label {
 input[type=checkbox]:checked + label {
   color: #f00;
   font-style: normal;
-}
+} */
 
 
 
