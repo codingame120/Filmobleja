@@ -193,11 +193,9 @@ body {
   display: block;
 }
 
-@media screen and (max-width: 900px) {
-.img-fluid {
 
-  display: none;
-}
+@media screen and (max-width: 900px) {
+
 a.active  {
 
   color: #9DCAE0;
@@ -228,12 +226,9 @@ a.active:hover {
 } 
 
 }
-@media screen and (max-width: 400px){
 
-.img-fluid {
+@media screen and (max-width: 400px) {
 
-  display: none;
-}
 a.active  {
 
   font-size: 15px;
@@ -320,17 +315,26 @@ a.active:hover  {
   position: fixed;
   top: 0;
   margin-top: 40px;
-  left: 730px;
+  left: 630px;
   border-radius: 5px;
   background-color: rgba(0,0,0,0.6);
   opacity: 1;
   color: white;
   border-color: rgba(0,0,0,0.8);
+  
+  
+   
+  
+   
 
+}
+
+@-moz-document url-prefix() {
   
-   
-  
-   
+  #searchBox {
+
+    max-width: 200px;
+  }
 
 }
 
