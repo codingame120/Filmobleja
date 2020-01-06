@@ -48,3 +48,21 @@ for (i = 0; i < coll.length; i++) {
 }
 
 
+
+
+// mobilni menu js start //
+
+$(document).ready(function(){
+  // menu click event
+  $('.menuBtn').click(function() {
+    $(this).toggleClass('act');
+      if($(this).hasClass('act')) {
+        $('.mainMenu').addClass('act');
+      }
+      else {
+       $('.mainMenu').removeClass('act');
+       }
+  });
+});
+
+// mobilni menu js end //
