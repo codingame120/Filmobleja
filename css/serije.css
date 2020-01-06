@@ -545,6 +545,7 @@ header {
 }
 
 
+
 /* mobile menu end */
 
  
@@ -1150,6 +1151,16 @@ height:100%;
   margin-top: 150px;
   margin-bottom: 150px;
   
+  
+}
+
+
+@media screen and (max-width: 400px), only screen and (max-width: 800px) {
+
+  .w3-cnt {
+
+    margin-top: 325px;
+  }
 }
 
 
@@ -1164,6 +1175,7 @@ height:100%;
   max-width: 800px;
   max-height: 600px;
   border-radius: 10px;
+
   
 
 }
