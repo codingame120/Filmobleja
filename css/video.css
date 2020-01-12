@@ -900,4 +900,14 @@ height:100%;
 }
 
 
+@media screen and (max-width: 400px) {
+
+  .chat {
+
+    width: 80%;
+  }
+
+}
+
+
 /* chat end */
