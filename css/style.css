@@ -13,8 +13,8 @@ body {
     
 
     
-    background: black;
-    background-image: url("https://i.postimg.cc/pX75rKnY/person-695654-1920.jpg");
+    background: linear-gradient(to bottom,  #000000 0%,#484848 50%,#484848 50%,#000000 100%);
+    /* background-image: url("https://i.postimg.cc/pX75rKnY/person-695654-1920.jpg");*/
      background-repeat: no-repeat;
     background-position: center;
     background-size: cover;
@@ -1115,7 +1115,7 @@ height:100%;
 /* Track */
 ::-webkit-scrollbar-track {
   
-  background-color: rgba(0,0,0,0.1);
+  background-color: rgba(0,0,0,0.9);
 }
 
 /* Handle */
